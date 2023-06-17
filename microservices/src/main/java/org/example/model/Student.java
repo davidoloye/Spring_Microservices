@@ -13,6 +13,8 @@ import java.util.List;
 
 @Document
 @Data
+//@Builder
+@RequiredArgsConstructor
 public class Student {
 
     @Id
