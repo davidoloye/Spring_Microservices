@@ -46,10 +46,6 @@ public class Main {
             repository.findStudentByEmail(email).ifPresent(student1 -> {
                 System.out.println(" ::: Student Already Exist::::" + student);
             });
-
-
-
-
         };
     }
 
